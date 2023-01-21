@@ -8,7 +8,7 @@ To design a static website for a software product company company.
 
 ### Step 1:
 
-Requirement collection.
+Collect the required information and images
 
 ### Step 2:
 
@@ -35,12 +35,856 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+### home.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #0B4F6C;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px #D8D8D8;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/image3.webp");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #F7CAC9;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #F5FF98;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #DCCCE3;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.productitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+}
+.productitem .itemprice {
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #3386ec;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      
+      <div class="menu">
+        <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="homecontent">
+          <h1>About Us</h1>
+          <img src="/static/image1.png" alt="tech">
+          <div class="contenttext">
+            At Tally, we believe in the power of technology to make business
+            owners efficient, empowered and happier, so they can focus on what
+            matters most for their business. We design our products to focus on
+            just that to make our products work for you, and not the other way
+            around.
+            <br>
+            Our new product TallyPrime takes this to a new level, making your
+            start to automation, or your switch to Tally simpler than ever
+            before. You can now discover the product much more easily and make
+            the product do more for you, without learning anything new. There is
+            greater flexibility as the product adapts to your business and your
+            way of working. And the transformed look and feel will only make you
+            love the product even more.
+            <ul>
+              <li>Simple to learn, easier to use</li>
+              <li>Insightful , actionable & customizable reports</li>
+              <li>Anywhere, anytime and secure access</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright &#169; 2023 EduSoft Private Limited, Developed by Sabitha Paulraj
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+### products.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #0B4F6C;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px #D8D8D8;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/image3.webp");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #F7CAC9;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #F5FF98;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #DCCCE3;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.productitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+}
+.productitem .itemprice {
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #3386ec;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+
+    </style>
+    <link rel="icon" href="/static/icon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      <div class="menu">
+     <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>Our Premium Products</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book12.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Learning How To Fly</div>
+                  <div class="itemprice">Price: Rs.200 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book2.png"  alt="product image">
+                  </div>
+                  <div class="itemname">The Power of your Subconscious Mind</div>
+                  <div class="itemprice">Price: Rs.350 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book3.png" alt="product image">
+                  </div>
+                  <div class="itemname">The Science of Getting Rich</div>
+                  <div class="itemprice">Price: Rs.450 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book4.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Atomic Habits</div>
+                  <div class="itemprice">Price: Rs.290 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book5.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">IKIGAI</div>
+                  <div class="itemprice">Price: Rs.500 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book6.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">The Alchemist</div>
+                  <div class="itemprice">Price: Rs.440 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book7.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">The Monk who sold his Ferrari</div>
+                  <div class="itemprice">Price: Rs.300 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book8.png" alt="product image">
+                  </div>
+                  <div class="itemname">Think and Grow Rich</div>
+                  <div class="itemprice">Price: Rs.420 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book9.png" alt="product image">
+                  </div>
+                  <div class="itemname">The Elements of Style</div>
+                  <div class="itemprice">Price: Rs.280 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book10.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Attitude is Everything</div>
+                  <div class="itemprice">Price: Rs.400 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book11.webp" alt="product image">
+                  </div>
+                  <div class="itemname">DO IT TODAY</div>
+                  <div class="itemprice">Price: Rs.250 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/book1.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Psychology of Money</div>
+                  <div class="itemprice">Price: Rs.370 </div>
+              </div>
+          </div>
+          </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 EduSoft Private Limited, Developed by Sabitha Paulraj.
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+### people.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #0B4F6C;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px #D8D8D8;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/image3.webp");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #F7CAC9;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #F5FF98;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #DCCCE3;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 140px;
+  height: 140px;
+  display: block;
+}
+.productitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+}
+.productitem .itemprice {
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #3386ec;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+
+    </style>
+    <link rel="icon" href="/static/icon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>PEOPLE AT EDUSOFT</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">SALIL PARAKH</div>
+                  <div class="itemprice">Managing Director </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people2.webp"  alt="product image">
+                  </div>
+                  <div class="itemname">NANDAN NELAKENI</div>
+                  <div class="itemprice">Co-founder and Chairman of the Board </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people3.webp" alt="product image">
+                  </div>
+                  <div class="itemname">KIRAN MAZUMDAR</div>
+                  <div class="itemprice">Lead Independent Director </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people4.webp" alt="product image">
+                  </div>
+                  <div class="itemname">D.SUNDARAM</div>
+                  <div class="itemprice">Independent Director India </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people5.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Michael Gibbs</div>
+                  <div class="itemprice">Independent Director </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/people6.webp" alt="product image">
+                  </div>
+                  <div class="itemname">Uri Levine</div>
+                  <div class="itemprice">Independent Director </div>
+              </div>
+             
+          </div>
+          </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 EduSoft Private Limited, Developed by Sabitha Paulraj.
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+### contactus.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #0B4F6C;
+  color: #17421d;
+  
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px #D8D8D8;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/image3.webp");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #F7CAC9;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #F5FF98;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #DCCCE3;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+}
+
+
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #3386ec;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+
+
+
+    </style>
+     <link rel="icon" href="/static/icon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+          
+            <h1>Contact Us</h1>
+  <p>If you have any questions or feedback, please don't hesitate to reach out to us.</p>
+  <ul>
+    <li>Address: 123 Main Street, Mumbai, India</li>
+    <li>Phone: +91 8765432109</li>
+    <li>Email: contact@edusoft.com</li></ul>
+  
+<h2> Sales Inquiries</h2>
+
+<ul><li>India 1800 103 11231800 572 3535</li></ul>
+    <h2>Press Inquiries</h2> 
+<ul><li>press@edusoft.com</li>
+
+<li>Nanya Srivastava</li>
+<li>nanya@edusoft.com</li></ul>
+    <h2>Analyst Relations</h2> 
+
+    <ul><li>Sandra Lo</li>
+    <li>+1-925-924-9500</li>
+    <li>pr@edosoft.com</li></ul>
+        <h2>Customer Relations</h2> 
+
+    <ul><li>Peter S. Balaji</li>
+    <li>Director of Sales & Customer Service</li>
+    <li>peterbalaji@edusoft.com</li>
+    </ul>
+    
+  </div>
+   <div class="footer">
+        Copyright &#169; 2021 EduSoft Private Limited, Developed by Sabitha Paulraj.
+      </div>
+      </div>
+</body>
+</html>
+```
 
 ## OUTPUT:
 
 ### Home Page:
+![Screenshot (99)](https://user-images.githubusercontent.com/118343379/213881179-76179372-e7e0-45b9-809a-6d925b72645c.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/118343379/213881186-d090ba55-9c33-4899-8caa-c248a7827c62.png)
+### product page
+![Screenshot (101)](https://user-images.githubusercontent.com/118343379/213881206-4e65b32e-cfff-4544-afac-d95c0511a840.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/118343379/213881210-583bc1b2-9efa-46e9-ac32-d38074ef69c0.png)
 
-![output](./images/homepage.jpg)
+### people page 
+![Screenshot (103)](https://user-images.githubusercontent.com/118343379/213881216-a5e67f9d-c729-44fe-a12a-569327272575.png)
+
+### contact page
+
+![Screenshot (104)](https://user-images.githubusercontent.com/118343379/213881226-5a80b6d3-fa94-4725-86e9-52cb232c63aa.png)
+
+### HTML VALIDATOR
+
+![Screenshot (106)](https://user-images.githubusercontent.com/118343379/213881253-b7934077-d8b5-45ac-8ab2-ae8953bf7826.png)
+![Screenshot (108)](https://user-images.githubusercontent.com/118343379/213881269-7a4d6802-213d-41ed-a6b3-4bd6f8261ef2.png)
+![Screenshot (109)](https://user-images.githubusercontent.com/118343379/213881276-b45a8b5e-a437-4506-8cb8-9fb7493672fc.png)
+![Screenshot (105)](https://user-images.githubusercontent.com/118343379/213881285-2aa1e427-b6e9-4069-8b9c-bd553c3cc291.png)
+
 
 ## Result:
 
