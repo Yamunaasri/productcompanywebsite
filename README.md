@@ -34,6 +34,19 @@ Validate the HTML code.
 
 Publish the website in the given URL.
 
+### COLOUR SCHEME
+The color scheme of this CSS code includes a background color of #0B4F6C, text color of #17421d, banner text color of #F7CAC9, menu text color of #DCCCE3, selected menu text color of #F5FF98, and footer text color of #9c1018.
+The color scheme of this CSS code includes:
+
+-->background color of dark blue
+-->text color of dark green
+-->banner text color of light pink
+-->menu text color of light purple
+-->selected menu text color of yellow
+-->footer text color of dark red
+
+Background Color and Text Color are COMPLEMENTARY.
+
 ## PROGRAM :
 
 ### LAYOUT.CSS
